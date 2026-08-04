@@ -31,7 +31,7 @@ model_data = {
 st.dataframe(pd.DataFrame(model_data), hide_index=True, use_container_width=True)
 
 # Confusion Matrix Results
-st.header('Random Forest — Confusion Matrix Results')
+st.header('Random Forest Confusion Matrix Results:')
 col1, col2 = st.columns(2)
 with col1:
     st.success('Correctly identified legitimate: 56,856')
