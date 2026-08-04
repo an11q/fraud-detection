@@ -52,7 +52,7 @@ with col1:
 with col2:
     st.metric('Analyst Review Cost (false alarms)', f'£{false_alarms * 15}')
 
-st.info('Assumption: average fraud transaction £122.21 | analyst review cost £15 per case (30 mins at £30/hr)')
+st.info('Assumption: average fraud transaction £122.21 and analyst review cost £15 per case (30 mins at £30/hr)')
 
 # Key Findings
 st.header('Key Findings')
