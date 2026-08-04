@@ -1,4 +1,4 @@
-# Credit Card Fraud Detection — Risk Analysis Project
+# Credit Card Fraud Detection, a Risk Analysis Project
 
 ## Overview
 Machine learning project built to detect fraudulent credit card transactions. Trained and evaluated on 284,807 real transactions from a European bank.
@@ -8,7 +8,7 @@ Only 0.17% of transactions are fraudulent. A naive model predicting "not fraud" 
 
 ## Models Built
 - Logistic Regression (baseline)
-- Random Forest (best performer — 91% precision, 83% recall)
+- Random Forest (best performer with 91% precision, 83% recall)
 - Gradient Boosting
 - Isolation Forest (unsupervised anomaly detection)
 
